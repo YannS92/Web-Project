@@ -1,0 +1,82 @@
+#authentification {
+    position: relative;
+    top: 24px;
+    width: 360px;
+    height: 400px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.body {
+    background-color: #f7f7f7;
+    opacity: 1;
+    z-index: -1;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+#login {
+    position: relative;
+    left: 35px;
+    bottom: -50px;
+}
+
+#mdpo {
+    position: relative;
+    left: 50px;
+    bottom: -30px;
+}
+
+#mdp {
+    position: relative;
+    left: 13px;
+    width: 300px;
+    height: 30px;
+}
+
+#Adresse_email {
+    position: relative;
+    left: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#block_check {
+    position: relative;
+    left: 50px;
+    bottom: -30px;
+    color: black;
+}
+
+#cesi_image {
+    position: relative;
+    top: -6px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 35px;
+}
+
+#bouton_connexion {
+    position: relative;
+    left: 450px;
+    bottom: -50px;
+}
+
+@media screen and (max-width: 768px) {
+    #bouton_connexion {
+        position: relative;
+        left: 350px;
+        bottom: -50px;
+    }
+}

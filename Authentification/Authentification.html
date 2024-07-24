@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Authentification pour le site Cesi Stage ">
+    <meta name="keywords" content="cesi, developement web, Authentifiation, stage">
+    <meta name="author" content="steven charlut">
+    <title>Cesi Stage Authentifiation</title>
+    <link rel="shortcut icon" href="https://yt3.ggpht.com/ytc/AAUvwniJcudFBvjhncQ4O0DaTopCR9eFqPV6hoGGZsVl4A=s900-c-k-c0x00ffffff-no-rj" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/authentification.js"></script>
+    <link rel="stylesheet" href="css/style_authentification.css">
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container h-100" id="authentification">
+        <img src="img/téléchargement.png" alt="icone pour le prosit au pif" width="426" height="157" id=cesi_image><br>
+        <div id="login">
+            <div class="mb-3">
+                <img src="img/user.png" alt="icone pour le prosit au pif" width="32" height="32">
+                <label for="Adresse_email" class="form-label"> Adresse email</label>
+                <input type="email" class="form-label" id="Adresse_email" name="Adresse_email" placeholder="nom.prénom@viacesi.fr"><br>
+            </div>
+            <div class="mb-3">
+                <img src="img/secretuser.png" alt="icone pour le prosit au pif" width="32" height="32">
+                <label class="form-label">Mot de passe</label>
+                <input type="password" class="form-label" id="mdp" name="mdp"><br>
+            </div>
+        </div>
+        <div id="mdpo">
+            <a href="/img/dommage.png">mot de passe oublié</a><br>
+        </div>
+        <div class="mb-3 form-check" id="block_check">
+            <input type="checkbox" class="form-check-input" id="Souvenir" name="Souvenir" checked>
+            <label class="form-check-label" for="Souvenir">Se souvenir de moi</label><br>
+        </div>
+        <input type="button" class="btn btn-dark mb-2" name="connexion" value="connexion" id="bouton_connexion"><br>
+
+    </div>
+    <footer class="site-footer">
+        <img src="img/lien.jpg" alt="icone pour le prosit au pif" width="32" height="32">
+        <a href="img/dommage.png">Support</a>
+        <a href="img/dommage.png">Aide</a><br>
+    </footer>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/particles.min.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font: 0.8em "Trebuchet MS", helvetica, sans-serif;
+}
+
+/*Style affichage zone en dessous du menu*/
+div#conteneur {
+    width: 792px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #33a5ff;
+    background: #fff;
+}
+
+/*Style affichage photo grande au dessus du menu*/
+h1#header {
+    height: 258px;
+    margin: 0;
+    background: url(img/Étudiants.jpg) no-repeat left top;
+}
+
+/*Style affichage logo CESI cliquable au dessus du menu*/
+h1#header a {
+    width: 200px;
+    height: 80px;
+    display: block;
+    background: url(img/Cesi_logo.png) no-repeat;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    text-indent: -5000px;
+}
+
+/*Dimensions et couleur background du menu*/
+ul#menu {
+    height: 26px;
+    width: 780;
+    margin: 0;
+    padding: 0;
+    background: #33a5ff repeat-x 0 -25px;
+    list-style-type: none;
+}
+
+/*Position du menu*/
+ul#menu li {
+    float: left;
+    text-align: center;
+}
+
+/*Couleur, dimension et position texte bouttons sur le menu*/
+ul#menu li a {
+    width: 130px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #328AD1;
+}
+
+/*Traits de séparation entre boutons menu*/
+ul#menu li a:hover {
+    background: #33a5ff repeat-x 0 0;
+}
+
+/*Style affichage footer*/
+p#footer {
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #33a5ff;
+}
+
+/*Style bouton retour*/
+.button1 {
+    background-color: #1856DA;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    border-radius: 2rem;
+}
+
+/*Responsif*/
+@media only screen and (min-width: 500px) {
+    div#conteneur {
+        width: 62%;
+        float: inline-start;
+    }
+    h1#header {
+        width: 100%;
+        -webkit-background-size: cover;
+        float: inline-start;
+    }
+    ul#menu li a {
+        background: #33a5ff repeat-x 0 -25px;
+    }
+}
+
+/*Particules*/
+#particles-js {
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}

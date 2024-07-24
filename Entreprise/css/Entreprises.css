@@ -1,0 +1,175 @@
+body {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font: 0.8em "Trebuchet MS", helvetica, sans-serif;
+}
+
+div#conteneur { /*zone au dessus du menu*/
+    width: 792px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #33a5ff;
+    background: #fff;
+}
+
+h1#header { /* background de haut de page */
+    height: 258px;
+    margin: 0;
+    background: url(img/Entreprise.jpg) no-repeat left top;
+}
+
+h1#header a { /* logo cesi cliquable */ 
+    width: 200px;
+    height: 80px;
+    display: block;
+    background: url(img/Cesi_logo.png) no-repeat;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    text-indent: -5000px;
+}
+
+ul#menu { /*menu dementions*/
+    height: 26px;
+    width: 780;
+    margin: 0;
+    padding: 0;
+    background: #33a5ff repeat-x 0 -25px;
+    list-style-type: none;
+}
+
+ul#menu li { /*position menu*/
+    float: left;
+    text-align: center;
+}
+
+ul#menu li a { /*couleur menu*/
+    width: 130px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #328AD1;
+}
+
+ul#menu li a:hover { /* trait entre les bouttons*/
+    background: #33a5ff repeat-x 0 0;
+}
+
+p#footer { /*bas de page*/
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #33a5ff;
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableau-style { /* tableau */
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid midnightblue;
+    /* border: 1px solid #ddd;  */
+}
+
+thead tr { /* case titre du tableau */
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td { /* interieur case titre tableau */
+    padding: 15px 20px;
+}
+
+tbody tr,
+td,
+th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.button1 { /*boutton créer*/
+    background-color: #1856DA;
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 50px;
+    border-radius: 2rem;
+}
+
+.button2 { /*boutton modifier*/
+    background-color: #1856DA;
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 50px;
+    border-radius: 2rem;
+}
+
+#search { /*barre de recherche*/
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+#button { /*boutton recherche*/
+    background-color: #33a5ff;
+    border: 0px solid black;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 500px) { /*responsive*/
+    div#conteneur {
+        width: 62%;
+        float: inline-start;
+    }
+    h1#header {
+        width: 100%;
+        -webkit-background-size: cover;
+        float: inline-start;
+    }
+    ul#menu li a {
+        background: #33a5ff repeat-x 0 -25px;
+    }
+}
+
+#particles-js { /*particules*/
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
